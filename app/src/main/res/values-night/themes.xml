@@ -3,5 +3,7 @@
     <style name="Base.Theme.Sprint09koh15" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="toolbarBackgroundColor">#0ff</item>
+        <item name="toolbarTitleTextAppearance">@style/TextAppearance.AppCompat.Body1</item>
     </style>
 </resources>

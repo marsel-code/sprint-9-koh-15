@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyToolbar">
+        <item name="android:background">?attr/toolbarBackgroundColor</item>
+        <item name="navigationIcon">@drawable/baseline_arrow_back_24</item>
+        <item name="titleTextAppearance">?attr/toolbarTitleTextAppearance</item>
+    </style>
+
+    <style name="MyToolbar.Variant">
+        <item name="android:background">?attr/colorError</item>
+    </style>
+</resources>

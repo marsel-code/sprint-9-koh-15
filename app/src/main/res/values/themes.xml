@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+    <attr name="toolbarBackgroundColor" format="color|reference" />
+    <attr name="textFont" format="reference" />
+    <attr name="toolbarTitleTextAppearance" format="reference" />
+
     <style name="Base.Theme.Sprint09koh15" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="toolbarBackgroundColor">#f0f</item>
+        <item name="toolbarTitleTextAppearance">@style/TextAppearance.AppCompat.Large</item>
     </style>
 
     <style name="Theme.Sprint09koh15" parent="Base.Theme.Sprint09koh15" />
+
+
 </resources>
